@@ -1,0 +1,9 @@
+def count_matches(array,b)
+count = 0
+  array.each do |busqueda|
+    if busqueda == b
+    count = count + 1
+    end
+  end
+  return count 
+end
